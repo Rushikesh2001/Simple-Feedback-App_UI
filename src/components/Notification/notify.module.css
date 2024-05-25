@@ -1,0 +1,46 @@
+.container {
+  display: flex;
+  width: fit-content;
+  min-width: 260px;
+  align-items: center;
+  justify-content: space-around;
+  border: 1px solid #1082e5;
+  border-radius: 8px;
+  height: 50px;
+  padding: 0 10px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  background-color: #f2fdfc;
+}
+
+.status {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #e3e3b2;
+  height: 24px;
+  width: 25px;
+  border-radius: 50%;
+  background-color: yellow;
+}
+
+.status > i {
+  font-size: 21px;
+  color: red;
+}
+
+.message {
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin: 0 20px;
+  color: red;
+}
+
+.cancel {
+  cursor: pointer;
+}
+
+.cancel > i {
+  font-size: 18px;
+}

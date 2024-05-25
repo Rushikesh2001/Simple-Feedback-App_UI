@@ -1,0 +1,43 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid blue;
+  text-align: center;
+  position: relative;
+  height: 60px;
+  letter-spacing: 4px;
+}
+
+.heading {
+  font-size: 30px;
+  margin: 0;
+  color: #ab0eab;
+}
+
+.heading > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.btn {
+  height: 34px;
+  width: 128px;
+  font-size: 15px;
+  letter-spacing: 2px;
+  border: 1px solid green;
+  border-radius: 5px;
+  background: none;
+  position: absolute;
+  top: 11px;
+  right: 15px;
+  cursor: pointer;
+  color: #589cd7;
+  font-weight: bold;
+}
+
+.btn:hover {
+  border: 1px solid #7373e9;
+  color: #a6ff00;
+  background-color: #7373e9;
+}

@@ -1,0 +1,16 @@
+.loader {
+  display: flex;
+  position: fixed;
+  height: 100vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  background-color: #000000c9;
+  top: 0;
+  z-index: 50;
+}
+
+.loader img {
+  height: 135px;
+  width: 127px;
+}
